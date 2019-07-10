@@ -1,0 +1,22 @@
+body {background-color: black; color: white;}
+p {color: gray;}
+li {color: gray;}
+.logo {float: right;
+height: 75px;}
+.main-header{display: flex;
+align-items; center;}
+aside {text-align: center;}
+.resize {height: 400px;
+width: auto;}
+.rainbow-text {                                                                                                                                                                           
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0.00, red), 
+        color-stop(16%, orange),
+        color-stop(32%, yellow),
+        color-stop(48%, green),
+        color-stop(60%, blue),
+        color-stop(76%, indigo),
+        color-stop(1.00, violet));
+  }
